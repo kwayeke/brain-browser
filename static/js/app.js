@@ -99,22 +99,7 @@
                 return "<a href='/" + data.Path + "' target='_blank' class='" + data.Class + "'><i class='fa " + getFileIcon(data.Ext) + "'></i>&nbsp;" + data.Name +"</a>";
               }
             }
-          },
-          { "sTitle": "", "mData": null, "bSortable": false, "sClass": "head1", "sWidth": "1px",
-            "render": function (data, type, row, meta) {
-              if (data.IsDirectory) {
-                return "";
-              } else {
-                if ( data.Class == "brain"){
-                    return "<a href='/" + data.Path + "' class='" + data.Class + "'><button type='button' class='btn btn-default btn-sm viewnifti'>view</button>&nbsp;</a>";
-                } else{
-                   return "";
-                }
-                
-              }
-            }
-          },
-
+          }
         ]
    };
 

@@ -3,12 +3,12 @@
 Brain browser is a web-based image viewer for local brain images.
 
 ## How to install
-1. You will first need [npm](https://nodejs.org/), the node package manager, which comes with both node itself and npm. You can either install by compiling from source or finding a version for your distribution. Either way, make sure that both `node` and `npm` are on your path:
+You will first need [npm](https://nodejs.org/), the node package manager, which comes with both node itself and npm. You can either install by compiling from source or finding a version for your distribution. Either way, make sure that both `node` and `npm` are on your path:
 
       which npm
       which node
 
-2. Now you can easily install the brain-browser from the node package manager!
+Now you can easily install the brain-browser from the node package manager!
 
       npm install brain-browser -g
 
