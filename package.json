@@ -1,0 +1,37 @@
+{
+  "name": "brain-browser",
+  "author": "Vanessa Sochat",
+  "version": "1.0.0",
+  "description": "Local directory indexing for brain images",
+  "keywords": [
+    "brain viewer",
+    "brain browser",
+    "file browser",
+    "nifti",
+    "neuroimaging"
+  ],
+  "bin": {
+    "bb": "./index.js"
+  },
+  "homepage": "https://github.com/vsoch/brain-browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vsoch/brain-browser.git"
+  },
+  "dependencies": {
+    "express": "~4.4",
+    "lodash" : "~2.4",
+    "commander" : "~2.3"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1"
+  },
+  "main": "niindex",
+  "bugs": {
+    "url": "https://github.com/vsoch/brain-browser/issues"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "license": "MIT"
+}

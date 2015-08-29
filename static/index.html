@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Niindex Brain Image Browser</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Style-->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/app.css">
+        <link rel="stylesheet" href="https://rawgithub.com/vsoch/font-brain/master/font-brain/font-brain.css">
+</head>
+
+<body>
+    <div class="row">    
+        <div class="col-md-6">
+            <div class='papaya' data-params='params'></div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default mainpanel">
+                <div class="panel-heading">
+                   Niindex Brain Browser
+                    <span class="up">
+                        <i class="fa fa-level-up"></i> Up
+                    </span> 
+                </div>
+                <div class="panel-body">
+                    <table class="linksholder"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.datatables.min.js"></script>
+    <script src="/static/js/app.js"></script>
+
+    <!-- Papaya viewer-->
+    <link rel="stylesheet" type="text/css" href="/static/css/papaya.css" />
+    <script type="text/javascript" src="/static/js/papaya.js"/>
+
+    <script type="text/javascript">
+
+         // Configure papaya viewer
+         var params = [];
+         params["worldSpace"] = true;
+         params["expandable"] = true;
+         params["combineParametric"] = true;
+   
+   </script>
+
+
+  </body>
+</html>
