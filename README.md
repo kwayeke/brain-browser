@@ -29,7 +29,7 @@ You can specify a port, or to exclude files of a particular type:
     -e, --exclude <exclude>  File extensions to exclude (for multiple, do -e .js -e .css)
 
 
-[brain-browser.png](brain-browser.png)
+![brain-browser.png](brain-browser.png)
 
 ### Troubleshooting
 
