@@ -30,8 +30,5 @@
   "bugs": {
     "url": "https://github.com/vsoch/brain-browser/issues"
   },
-  "scripts": {
-    "test": "mocha test.js"
-  },
   "license": "MIT"
 }
