@@ -1,7 +1,7 @@
 {
   "name": "brain-browser",
   "author": "Vanessa Sochat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local directory indexing for brain images",
   "keywords": [
     "brain viewer",
